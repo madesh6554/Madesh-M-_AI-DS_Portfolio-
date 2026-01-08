@@ -224,30 +224,10 @@ def contact():
     except Exception as e:
         return jsonify({"error": "Failed to process contact form"}), 500
 
-@app.route('/api/chatbot', methods=['POST'])
-def chatbot():
-    """Placeholder for future AI chatbot integration"""
-    user_message = request.json.get('message', '')
-    
-    # Simple response for now - will be replaced with AI integration
-    responses = {
-        "who are you": "I'm Madesh M, an analytical and results-driven data professional with expertise in AI & ML, based in Salem, Tamil Nadu, India. I have a strong background in Mathematics and Data Science.",
-        "what are your skills": "I specialize in Python, SQL, Excel, Machine Learning, and Data Visualization. My key tools include TensorFlow, PyTorch, Tableau, Power BI, and Jupyter Notebooks.",
-        "show me your projects": "I have several projects including predictive modeling, data analysis dashboards, and AI-driven solutions. You can view them in the Projects section.",
-        "contact": "You can reach me at madesh6554@gmail.com or use the contact form on this website.",
-        "education": "I have an M.Sc. in Data Science and B.Sc. in Mathematics from Periyar University, Salem.",
-        "experience": "I have hands-on experience in data analysis, building predictive models, and creating AI-driven solutions using Python, SQL, and various ML frameworks."
-    }
-    
-    # Simple keyword matching for now
-    user_lower = user_message.lower()
-    for keyword, response in responses.items():
-        if keyword in user_lower:
-            return jsonify({"reply": response})
-    
-    return jsonify({
-        "reply": "I'm Madesh's AI assistant. I can tell you about his skills, projects, and experience. What would you like to know?"
-    })
+from routes.chatbot import chatbot_bp
+
+# Register Blueprints
+app.register_blueprint(chatbot_bp, url_prefix='/api')
 
 def send_email_notification(data):
     """Send email notification for new contact form submission"""

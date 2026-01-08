@@ -1,0 +1,9 @@
+Madesh M is a Data Scientist and AI Engineer based in Salem, Tamil Nadu, India.
+He holds an M.Sc in Data Science and a B.Sc in Mathematics from Periyar University.
+Madesh is passionate about solving complex problems using Artificial Intelligence and Machine Learning.
+He has strong skills in Python, SQL, and Data Visualization tools like Tableau and Power BI.
+Madesh has built various projects ranging from image classification systems to real-time stock predictors.
+He is a quick learner and enjoys staying updated with the latest trends in AI technology.
+Email: madesh6554@gmail.com
+LinkedIn: https://linkedin.com/in/madesh-m-15037b273
+GitHub: https://github.com/madesh6554

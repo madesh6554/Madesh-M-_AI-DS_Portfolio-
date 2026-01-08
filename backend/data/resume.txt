@@ -1,0 +1,24 @@
+EDUCATION:
+- M.Sc Data Science, Periyar University, Salem (2023-2025)
+- B.Sc Mathematics, Periyar University, Salem (2020-2023)
+
+TECHNICAL SKILLS:
+- Languages: Python, SQL, R, JavaScript
+- AI/ML: TensorFlow, PyTorch, Scikit-Learn, OpenCV, NLP, Computer Vision
+- Data Tools: Pandas, NumPy, Excel, Tableau, Power BI
+- Web: Flask, FastAPI, React, HTML/CSS
+- Tools: Git, VS Code, Jupyter Notebook
+
+EXPERIENCE:
+- Data Science Intern (Verify exact dates/company if applicable)
+  Worked on data cleaning, analysis, and model building.
+  Collaborated with senior team members on deployment.
+
+CERTIFICATIONS:
+- Python for Data Science (IBM)
+- Machine Learning (Coursera)
+- Tableau Desktop Specialist
+
+LANGUAGES:
+- English (Professional)
+- Tamil (Native)

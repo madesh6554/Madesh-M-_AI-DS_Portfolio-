@@ -32,7 +32,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8">
           {/* Brand Section */}
           <div className="space-y-4">
-            <motion.h3 
+            <motion.h3
               className="text-2xl font-bold text-primary-400"
               whileHover={{ scale: 1.05 }}
             >
@@ -62,7 +62,7 @@ const Footer = () => {
                 </li>
               ))}
             </ul>
-            
+
             {/* Portfolio Links */}
             <div className="pt-4">
               <h5 className="text-md font-semibold text-white mb-2">Portfolio</h5>
@@ -106,7 +106,7 @@ const Footer = () => {
                 </span>
               </div>
             </div>
-            
+
             {/* Social Links */}
             <div className="flex space-x-4 pt-2">
               {socialLinks.map(({ icon: Icon, href, label }) => (
@@ -143,7 +143,7 @@ const Footer = () => {
               </motion.div>
               <span>and lots of ☕</span>
             </div>
-            
+
             <div className="flex items-center space-x-6 text-sm text-gray-400">
               <span>Built with React & Tailwind CSS</span>
               <span>•</span>
@@ -165,9 +165,9 @@ const Footer = () => {
               <span className="text-white font-bold text-sm">AI</span>
             </div>
             <div>
-              <h5 className="text-white font-semibold">AI Chatbot Coming Soon!</h5>
+              <h5 className="text-white font-semibold">Personal AI Assistant Available!</h5>
               <p className="text-gray-300 text-sm">
-                Stay tuned for an intelligent chatbot that can answer questions about my projects and experience.
+                Variant 2.0 Loading... ⏳. Stay tuned for timeline updates and more interactive features!
               </p>
             </div>
           </div>

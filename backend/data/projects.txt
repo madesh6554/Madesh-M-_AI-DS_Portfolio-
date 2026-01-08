@@ -1,0 +1,24 @@
+1. AI-Powered Image Classification System:
+A deep learning model using CNN architecture to classify images into 1000 categories.
+Tech Stack: Python, TensorFlow, OpenCV, Flask.
+Key Features: High accuracy, real-time processing, web interface.
+
+2. Real-time Stock Price Predictor:
+An LSTM-based neural network model for predicting stock prices.
+Tech Stack: Python, PyTorch, Pandas, Streamlit.
+Key Features: Real-time data fetching, interactive dashboard, historical data analysis.
+
+3. Customer Sentiment Analysis Dashboard:
+NLP application for analyzing customer reviews.
+Tech Stack: Python, NLTK, Scikit-learn, FastAPI, Tableau.
+Key Features: Sentiment classification, topic modeling, visual insights.
+
+4. Data Visualization Portfolio:
+A collection of interactive dashboards.
+Tech Stack: Tableau, SQL, Excel.
+Key Features: Sales analytics, demographic insights, trend analysis.
+
+5. Personal Portfolio Website:
+This very website! A modern React app.
+Tech Stack: React, Tailwind CSS, Flask Backend.
+Key Features: Responsive design, dark mode, project showcase.
